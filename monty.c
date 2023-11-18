@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 		{"pop", pop_function},
 		{"swap", swap_function},
 		{"add", add_function},
+		{"nop", nop_function},
 		{NULL, NULL}
 	};
 	int i;
