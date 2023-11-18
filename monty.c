@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 		{"pall", pall_function},
 		{"pint", pint_function},
 		{"pop", pop_function},
+		{"swap", swap_function},
 		{NULL, NULL}
 	};
 	int i;
