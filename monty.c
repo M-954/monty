@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 		{"push", push_function},
 		{"pall", pall_function},
 		{"pint", pint_function},
+		{"pop", pop_function},
 		{NULL, NULL}
 	};
 	int i;
