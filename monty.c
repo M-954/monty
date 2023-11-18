@@ -1,4 +1,5 @@
 #include "monty.h"
+int main(int argc, char *argv[]);
 /**
  * main - Entry point
  * @argc: argument count
@@ -55,7 +56,8 @@ int main(int argc, char *argv[])
 			{
 				if (current_opcode != NULL)
 				{
-					fprintf(stderr, "L%d: unknown instruction %s\n", line_number, current_opcode);
+					fprintf(stderr, "L%d: unknown instruction %s\n",
+						line_number, current_opcode);
 					exit(EXIT_FAILURE);
 				}
 			}

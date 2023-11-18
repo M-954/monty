@@ -15,5 +15,5 @@ void pall_function(stack_t **stack, unsigned int line_number)
 	{
 	fprintf(stdout, "%d\n", temp->n);
 	temp = temp->next;
-	}	
+	}
 }

@@ -38,4 +38,5 @@ typedef struct instruction_s
 /*parameters of all functions*/
 void push_function(stack_t **stack, unsigned int line_number);
 void pall_function(stack_t **stack, unsigned int line_number);
+int main(int argc, char *argv[]);
 #endif
