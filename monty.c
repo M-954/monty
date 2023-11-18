@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 	{
 		int found = 0;
 
-		token = strtok(buf, " \n\t");
+		token = strtok(buf, " \n\t\r");
 		if (token != NULL)
 		{
 			line_number += 1;
