@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 	instruction_t opcode[] = {
 		{"push", push_function},
 		{"pall", pall_function},
+		{"pint", pint_function},
 		{NULL, NULL}
 	};
 	int i;

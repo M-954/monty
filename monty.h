@@ -3,7 +3,6 @@
 
 /*Header files*/
 #include <stdio.h>
-#include <limits.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -40,4 +39,5 @@ typedef struct instruction_s
 void push_function(stack_t **stack, unsigned int line_number);
 void pall_function(stack_t **stack, unsigned int line_number);
 int main(int argc, char *argv[]);
+void pint_function(stack_t **stack, unsigned int line_number);
 #endif
