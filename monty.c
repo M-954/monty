@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 		{"pint", pint_function},
 		{"pop", pop_function},
 		{"swap", swap_function},
+		{"add", add_function},
 		{NULL, NULL}
 	};
 	int i;
