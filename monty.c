@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
 		{"mul", mul_function},
 		{"mod", mod_function},
 		{"pchar", pchar_function},
+		{"pstr", pstr_function},
 		{NULL, NULL}
 	};
 	int i;
