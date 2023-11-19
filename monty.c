@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 		{"nop", nop_function},
 		{"sub", sub_function},
 		{"div", div_function},
+		{"mul", mul_function},
 		{NULL, NULL}
 	};
 	int i;
