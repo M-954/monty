@@ -6,7 +6,7 @@
  */
 void pchar_function(stack_t **stack, unsigned int line_number)
 {
-	int a = (*stack)->n;
+	int a;
 	char c;
 
 	if (*stack == NULL)
@@ -14,6 +14,9 @@ void pchar_function(stack_t **stack, unsigned int line_number)
 		fprintf(stderr, "L%d: can't pchar, stack empty\n", line_number);
 		exit(EXIT_FAILURE);
 	}
+
+	a = (*stack)->n;
+
 	if ((a >= 65 && a <= 90) || (a >= 97 && a <= 122))
 	{
 		c = a;
