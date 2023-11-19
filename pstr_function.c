@@ -15,7 +15,8 @@ void pstr_function(stack_t **stack, unsigned int line_number)
 	while (temp != NULL && temp->n != 0)
 	{
 		a = temp->n;
-		if ((a >= 65 && a <= 90) || (a >= 97 && a <= 122))
+		if (a >= 32 && a <= 126)
+		/*if ((a >= 65 && a <= 90) || (a >= 97 && a <= 122))*/
 		{
 			c = a;
 			fprintf(stdout, "%c", c);
