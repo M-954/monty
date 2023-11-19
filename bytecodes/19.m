@@ -1,5 +1,2 @@
-push 1
-push 2
-push 15
-push 72
+push 7
 pchar
