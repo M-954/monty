@@ -48,6 +48,8 @@ int main(int argc, char *argv[])
 		int found = 0;
 
 		token = strtok(buf, " \n\t\r");
+		if (strncmp(buf, "#", 1) == 0)
+			continue;
 		if (token != NULL)
 		{
 			line_number += 1;
