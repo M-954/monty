@@ -12,7 +12,7 @@ void pstr_function(stack_t **stack, unsigned int line_number)
 
 	(void)line_number;
 
-	while (temp != NULL)
+	while (temp != NULL && temp->n != 0)
 	{
 		a = temp->n;
 		if ((a >= 65 && a <= 90) || (a >= 97 && a <= 122))
@@ -27,4 +27,5 @@ void pstr_function(stack_t **stack, unsigned int line_number)
 			exit(EXIT_FAILURE);
 		}
 	}
+	fprintf(stdout, "\n");
 }
